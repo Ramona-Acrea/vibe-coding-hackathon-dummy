@@ -13,6 +13,7 @@ const pageStyle = {
 const headingStyle = {
   fontSize: "48px",
   margin: 0,
+  color: "red",
 };
 
 function App() {
