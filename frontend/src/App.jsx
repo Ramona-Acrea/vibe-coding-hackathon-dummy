@@ -15,7 +15,7 @@ import {
 } from "recharts";
 import "./App.css";
 
-const API_URL = "http://localhost:8000/api/dashboard";
+const API_URL = import.meta.env.VITE_API_URL ?? "http://localhost:8000/api/dashboard";
 const DEFAULT_KEYS = ["budget_total", "tax_revenue", "population"];
 const PRESETS = [
   { label: "5 Jahre", years: 5 },
